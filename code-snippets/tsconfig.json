@@ -1,0 +1,48 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",    /* Specify the root folder within your source files. */
+    "outDir": "./dist",   /* Specify an output folder for all emitted files. */
+    "removeComments": true,
+
+    // Environment Settings
+    // See also https://aka.ms/tsconfig/module
+    "module": "nodenext",    /* Specify what module code is generated. */
+    "target": "esnext",      /* Specify ECMAScript target version. */
+    // For older environments, you might want:
+    // "target": "es2016",
+    "types": [],
+    // For nodejs:
+    // "lib": ["esnext"],
+    // "types": ["node"],
+    // and npm install -D @types/node
+
+    // Other Outputs
+    "sourceMap": true,         /* Create source map files for emitted JavaScript files. */
+    "declaration": true,      /* Create .d.ts files from TypeScript and JavaScript files. */
+    "declarationMap": true, /* Create sourcemaps for d.ts files. */
+
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,  /* Include 'undefined' in index signature results */
+    "exactOptionalPropertyTypes": true, /* Interpret optional properties as written, rather than adding 'undefined'. */
+
+    // Style Options
+    // "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "noPropertyAccessFromIndexSignature": true,
+
+    // Recommended Options
+    "noEmitOnError": true,  /* Do not emit outputs if any errors were reported. */
+    "strict": true,           /* Enable all strict type-checking options. */  
+    "jsx": "react-jsx",    /* Specify what JSX code is generated. */
+    "verbatimModuleSyntax": true, /* Ensure import/export statements are emitted as-is. */
+    "isolatedModules": true,  /* Ensure that each file can be safely transpiled without relying on other imports. */
+    "noUncheckedSideEffectImports": true, /* Ensure that imports with side effects are explicitly marked. */
+    "moduleDetection": "force", /* Ensure that all files are treated as modules. */
+    "skipLibCheck": true, /* Skip type checking of declaration files. */
+  }
+}
