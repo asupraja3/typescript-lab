@@ -28,10 +28,12 @@
     "exactOptionalPropertyTypes": true, /* Interpret optional properties as written, rather than adding 'undefined'. */
 
     // Style Options
+    "noImplicitAny": false,   /* Raise error on expressions and declarations with an implied 'any' type. */
+    // You can enable these additional strictness options as needed:
     // "noImplicitReturns": true,
     // "noImplicitOverride": true,
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
+    "noUnusedLocals": true,  /* Raise error on unused locals. */
+    "noUnusedParameters": true,  /* Raise error on unused parameters. */
     // "noFallthroughCasesInSwitch": true,
     // "noPropertyAccessFromIndexSignature": true,
 
@@ -44,5 +46,6 @@
     "noUncheckedSideEffectImports": true, /* Ensure that imports with side effects are explicitly marked. */
     "moduleDetection": "force", /* Ensure that all files are treated as modules. */
     "skipLibCheck": true, /* Skip type checking of declaration files. */
+    // "strictNullChecks": false /* Disable strict null checks for compatibility. */
   }
 }
