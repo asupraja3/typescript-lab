@@ -68,6 +68,9 @@ let employee2: { id:number, name:string, retire:(date:Date)=>void } = {
     }
 }
 employee2.retire(new Date())
+//Array of objects
+let emps: { id:number, name:string}[] = [{id:1,name:'Emp1'},{id:2,name:'Emp2'}]
+console.log(emps);
 
 //problem with above approach is that we have to repeat the structure for every object
 //solution is to use 'type' or 'interface'
