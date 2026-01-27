@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2016", /* Specify ECMAScript target version. */
-    "lib": ["ES2016", "DOM"], /* Specify library files to be included in the compilation. */
+    "target": "esnext",
+    "lib": ["ESNext", "DOM"], /* Specify library files to be included in the compilation. */
     "strict": true, /* Enable all strict type-checking options. */
     "esModuleInterop": true /* Enable interoperability between CommonJS and ES Modules */,
   }

@@ -32,3 +32,5 @@ Users_details2.forEach(element => {
     });
     
 })
+
+console.log(Object.values(resultObj));
